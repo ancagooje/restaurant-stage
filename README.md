@@ -13,4 +13,8 @@
   Please find a list of general resources below. I have also included specific quotes in the main.js file. 
   The webinar of Doug Brown was a great starting point: https://www.youtube.com/watch?v=92dtrNU1GQc
   I have read and followed Matthew Cranford's tutorials, but I used Google maps API Key:        https://matthewcranford.com/restaurant-reviews-app-walkthrough-part-1-map-api/
+  I have consulted Matthew Cranford's tutorial on CSS styling for responsiveness and used my own variations: 
+  https://matthewcranford.com/restaurant-reviews-app-walkthrough-part-2-responsiveness/
+  Ryan Waite's webinar on general guidelines for this project, as well as some tips on accessibility was used as a general resource:
+  https://www.youtube.com/watch?v=ag_jBDFAL0U&feature=youtu.be
   I have read the Udacity course lessons on Google maps API (part 5, lesson 7: Getting started with the APIs) and the         tutorials in the actual Google MAPS once I signed up for a Google Maps key. 
