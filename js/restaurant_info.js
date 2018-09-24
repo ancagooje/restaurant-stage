@@ -10,12 +10,14 @@ window.initMap = () => {
       console.error(error);
     } else {
       self.map = new google.maps.Map(document.getElementById('map'), {
+        
         zoom: 16,
         center: restaurant.latlng,
         scrollwheel: false
       });
       fillBreadcrumb();
       DBHelper.mapMarkerForRestaurant(self.restaurant, self.map);
+       
     }
   });
 }
@@ -161,6 +163,7 @@ getParameterByName = (name, url) => {
     return '';
   return decodeURIComponent(results[2].replace(/\+/g, ' '));
 }
+
 /** Service worker example code from https://developers.google.com/web/fundamentals/primers/service-workers/ **/
 
 
@@ -175,3 +178,4 @@ if ('serviceWorker' in navigator) {
     });
   });
 }
+
