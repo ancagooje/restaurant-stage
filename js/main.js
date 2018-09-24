@@ -3,8 +3,7 @@ let restaurants,
   cuisines
 var map
 var markers = []
-
-/** Service worker example code from https://developers.google.com/web/fundamentals/primers/service-workers/ */
+/** Service worker example code from https://developers.google.com/web/fundamentals/primers/service-workers/ **/
 
 
 if ('serviceWorker' in navigator) {
